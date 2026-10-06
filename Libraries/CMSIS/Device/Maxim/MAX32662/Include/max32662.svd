@@ -11201,7 +11201,7 @@ domain.</description>
   <peripheral derivedFrom="TMR">
    <name>TMR3</name>
    <description>Low-Power Configurable Timer 3</description>
-   <baseAddress>0x40013000</baseAddress>
+   <baseAddress>0x40113000</baseAddress>
    <interrupt>
     <name>TMR3</name>
     <description>TMR3 IRQ</description>
