@@ -8324,7 +8324,7 @@
   <peripheral>
    <name>SPI</name>
    <description>SPI peripheral.</description>
-   <baseAddress>0x500BE000</baseAddress>
+   <baseAddress>0x50046000</baseAddress>
    <addressBlock>
     <offset>0x00</offset>
     <size>0x1000</size>
@@ -10244,7 +10244,7 @@
   <peripheral derivedFrom="TMR">
    <name>TMR4</name>
    <description>Low-Power Configurable Timer 4</description>
-   <baseAddress>0x50080C00</baseAddress>
+   <baseAddress>0x50014000</baseAddress>
    <interrupt>
     <name>TMR4</name>
     <description>TMR4 IRQ</description>
@@ -10255,7 +10255,7 @@
   <peripheral derivedFrom="TMR">
    <name>TMR5</name>
    <description>Low-Power Configurable Timer 5</description>
-   <baseAddress>0x50081000</baseAddress>
+   <baseAddress>0x50015000</baseAddress>
    <interrupt>
     <name>TMR5</name>
     <description>TMR5 IRQ</description>
