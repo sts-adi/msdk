@@ -4,7 +4,7 @@
  <vendorID>Maxim</vendorID>
  <name>max32690</name>
  <series>ARMCM4</series>
- <version>1.1</version>
+ <version>1.2</version>
  <description>MAX32690 32-bit ARM Cortex-M4F microcontroller, 3.25MB of flash, 1MB of SRAM, 128KB of Boot ROM.</description>
  <cpu>
   <name>CM4</name>
@@ -4773,7 +4773,7 @@ least 1 entry in RX FIFO during this time, this bit is clear by write 1</descrip
    <baseAddress>0x40029000</baseAddress>
    <addressBlock>
     <offset>0x00</offset>
-    <size>0x1000</size>
+    <size>0x400</size>
     <usage>registers</usage>
    </addressBlock>
    <interrupt>
@@ -5283,6 +5283,12 @@ least 1 entry in RX FIFO during this time, this bit is clear by write 1</descrip
      </fields>
     </register>
    </registers>
+  </peripheral>
+<!--FLC1 Flash Memory Control.-->
+  <peripheral derivedFrom="FLC">
+   <name>FLC1</name>
+   <description>Flash Memory Control 1.</description>
+   <baseAddress>0x40029400</baseAddress>
   </peripheral>
 <!--FLC Flash Memory Control.-->
   <peripheral>
@@ -12484,7 +12490,7 @@ memory.
   <peripheral>
    <name>PUF</name>
    <description>PUF Registers</description>
-   <baseAddress>0x40070000</baseAddress>
+   <baseAddress>0x40007000</baseAddress>
    <addressBlock>
     <offset>0x00</offset>
     <size>0x400</size>
