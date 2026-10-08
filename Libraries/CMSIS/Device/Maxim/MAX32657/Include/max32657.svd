@@ -1376,7 +1376,6 @@
        <description>Atomic calibration trigger. Write 1 to start a single-shot calibration; self-clearing.</description>
        <bitOffset>4</bitOffset>
        <bitWidth>1</bitWidth>
-       <modifiedWriteValues>oneToClear</modifiedWriteValues>
        <enumeratedValues>
         <enumeratedValue>
          <name>normal</name>
@@ -1568,7 +1567,6 @@
        <description>Start Compare. Write 1 to start frequency count; self-clearing when measurement completes.</description>
        <bitOffset>0</bitOffset>
        <bitWidth>1</bitWidth>
-       <modifiedWriteValues>oneToClear</modifiedWriteValues>
       </field>
       <field>
        <name>CMP_CLKSEL</name>
@@ -9779,7 +9777,7 @@
         </enumeratedValue>
         <enumeratedValue>
          <name>DIV_BY_4096</name>
-         <description>MAX32657 32-bit ARM Cortex-M33 microcontroller with TrustZone, 1MB of flash, 256KB of SRAM, 64KB of Boot ROM.</description>
+         <description>Prescaler Divide-By-4096</description>
          <value>12</value>
         </enumeratedValue>
        </enumeratedValues>
@@ -9958,7 +9956,7 @@
         </enumeratedValue>
         <enumeratedValue>
          <name>DIV_BY_4096</name>
-         <description>MAX32657 32-bit ARM Cortex-M33 microcontroller with TrustZone, 1MB of flash, 256KB of SRAM, 64KB of Boot ROM.</description>
+         <description>Prescaler Divide-By-4096</description>
          <value>12</value>
         </enumeratedValue>
        </enumeratedValues>
